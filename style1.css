@@ -1,0 +1,46 @@
+/* Styling only */
+body {
+  margin: 0;
+}
+
+.wrapper {
+  background-color: rgb(58, 57, 57);
+  color: beige;
+  padding: 20px;
+  grid-template-columns: repeat(3,1fr);
+  height: 90vh;
+  display: grid;
+  gap: 10px;
+
+}
+
+.item {
+  background-color: blue;
+  color: whitesmoke;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  font-size: 3em;
+  display: flex;
+  align-items: flex-start;
+  
+
+}
+.a{
+  grid-column:span 3;
+}
+.b{
+  grid-row: span 2;
+}
+.e {
+  grid-column: span 2; 
+}
+
+.f {
+  grid-column: span 3;; 
+}
+
+
+
+
+ 
+ 
